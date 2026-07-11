@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect, useRef, useCallback } from "react";
 import { ShoppingCart, X, Plus, Minus, Menu, LogOut, Search, User, Package, MapPin, HelpCircle } from "lucide-react";
 
-const API_BASE = "http://localhost:4000/api";
+const API_BASE = "https://earlybird-backend-vh85.onrender.com/api";
 
 const TOKENS = {
   bg: "#EAF3FB",
